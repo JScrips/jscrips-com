@@ -1,0 +1,33 @@
+body {
+    background: #333;
+    color: white;
+    margin-bottom: 100px;
+   margin-right: 100px;
+   margin-left: 100px;
+   margin-top: 100px;
+}
+
+header {
+    
+    color: rgb(153, 57, 1);
+    width: 2500 px;
+   margin-bottom: 100px;
+   margin-right: 100px;
+   margin-left: 100px;
+   margin-top: 100px;
+}
+
+main {
+    color: rgb(153, 57, 1);
+    margin-bottom: 100px;
+   margin-right: 100px;
+   margin-left: 100px;
+   margin-top: 100px;
+}
+
+footer {
+    color: rgb(153, 57, 1);
+    margin-bottom:100px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
