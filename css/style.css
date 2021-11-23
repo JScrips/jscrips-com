@@ -1,6 +1,7 @@
 body {
     margin: 0;
     background-color: black;
+    
 }
 
 header{
@@ -19,6 +20,7 @@ header{
     background-color: black;
     text-align: center;
     margin: 215px auto;
+    width: 800px;
 
 }
 
