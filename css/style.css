@@ -149,3 +149,14 @@ footer {
     border-right: solid #9fafca 1px;
     color: #9fafca;
 }
+
+
+.projectContainer {
+    text-align:center;
+    color: #9fafca;
+}
+
+.projectPortfolioTitle{
+    color: #9fafca;
+}
+
