@@ -1,133 +1,567 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>TB || JScrips</title>
-
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
-  </head>
-  <body class='bg-white'>
-      <nav class=''>
-        <!--Start of nav Contents-->
-    <div class='navContents max-w-6xl mx-auto border boder-black bg-white justify-between flex py-5 rounded-b-lg ring-2 ring-black border-2 border-white shadow-xl shadow-inner mb-4'> 
-    
-    
-        <!--Start Nav Left Side Container-->
-        <div class='navLeft flex  gap-2 ml-2'>
-        
-            <div class='flex items-center'><svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-black hover:text-gray-600" viewBox="0 0 20 20" fill="currentColor">
-                <path d="M10 3.5a1.5 1.5 0 013 0V4a1 1 0 001 1h3a1 1 0 011 1v3a1 1 0 01-1 1h-.5a1.5 1.5 0 000 3h.5a1 1 0 011 1v3a1 1 0 01-1 1h-3a1 1 0 01-1-1v-.5a1.5 1.5 0 00-3 0v.5a1 1 0 01-1 1H6a1 1 0 01-1-1v-3a1 1 0 00-1-1h-.5a1.5 1.5 0 010-3H4a1 1 0 001-1V6a1 1 0 011-1h3a1 1 0 001-1v-.5z" />
-              </svg>
-            </div>
-            <div class='text-black text-xl font-black flex items-center hover:text-gray-600 '>TB||JScrips
-                
-            </div>
-        </div>
-        <!-- End Nav Left Side Container-->
-        <!--Start Nav Right Side Container-->
-        <div class='hidden md:flex gap-7 px-5 items-center'>
-            <a href="" class='text-black font-black text-base hover:text-gray-600'>About</a>
-            <a href="https://www.jscrips.com/projects.html" class='text-black font-black text-base hover:text-gray-600'>Projects</a>
-            <a href="https://jscrips-blog.vercel.app/" class='text-black font-black text-base hover:text-gray-600'>Blog</a>
-            <a href="" class='text-black font-black text-base hover:text-gray-600'>Contact</a>
-        </div>
-    
-    
-    
-        <!--Start Mobile Menu Container-->
-        <div class='flex items-center px-4 md:hidden'>
-            <button class='mobilebutton '><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
-              </svg></button>
-        </div>
-        <!--End Mobile Menu Container-->  
-    </div>
-    
-     <!--Start Mobile Menu-->
-    <div class='menucontainer flex justify-end md:hidden '>
-     <div class='actualMenu w-20 flex-col translate-x-20 border-2 border-black transform duration-300 isolate text-center rounded-l-lg rounded-b-lg'>
-        <a href="#" class='block ring-1 ring-black bg-white font-black text-sm text-black hover:text-gray-600 p-2'>About</a>
-        <a href="https://www.jscrips.com/projects.html" class='block ring-1 ring-black bg-white font-black text-sm text-black hover:text-gray-600 p-2'>Projects</a>
-        <a href="https://jscrips-blog.vercel.app/" class='block ring-1 ring-black bg-white font-black text-sm text-black hover:text-gray-600 p-2'>Blog</a>
-        <a href="#" class='block ring-1 ring-black bg-white font-black text-sm text-black hover:text-gray-600 p-2 rounded-b-lg '>Contact</a>
-    </div>
-    </div>
-    <!--End Mobile Menu-->  
-    <!-- End of Nav Contents-->
-    </nav>
-    
-
-
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="shortcut icon" type="image/x-icon" href="https://spacehey.com/favicon.ico?v=2">
+        <link rel="stylesheet" href="https://spacehey.com/css/my.css?c=492c6ab70184fd9a77c1925a92cc30dc1343f11f1b883a4eb89848863b1e930c">
       
-    <main>
-      <div class='mainheadshot rounded overflow-hidden mx-auto flex justify-center mb-10'>
-        <img
-          class=""
-          src="pictures/mainbodyheadshot.jpg"
-          alt="Devilishly Handosme"
-          height = 200px;
-          width = 200px;
-          rounded-xl
-          border-2
-          border-red-500
-        />
-      </div>
-      <div class="mainbodytext text-center max-w-4xl mx-auto">
+        <title>TB|JScrips Profile | Jscrips.com</title>
+        <meta name="title" content="https://JScrips.com">
+        <meta name="description" content="Welcome to my webpage! This is a site to feature my work and journey to becoming a front-end web developer">
+        <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+      </head>
+<body>
+    <body>
+        <!-- [spacehey.com] SpaceHey Server: webserver-3 -->
         
-        <h1 class="mainbodytitle font-black">I'm learning Javascript, HTML, and CSS</h1>
-        <h2 class="mainbodytitle2 font-black mb-4">
-          JavaScript, HTML, and CSS are the building blocks
-        </h2>
-      
-        <div class="footerparagraph  md:border-opacity-0">
-        <p class="title2subtext font-black px-4 ">
-          I'm coming to realize that virtually everything on the web is created,
-          powered, and altered through Javacript, CSS, and HTML. Learning these
-          languages has proven to be an invaluable skill! My only regret was not
-          learning them sooner!
-        </p>
-      </div>
-      </div>
-    </main>
+        <div class="container">
+          <nav>
+                <div class="top">
+              <div class="left">
+                <a href="https://Jscrips.com" class='flex items-center gap-2'>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" viewBox="0 0 20 20" fill="currentColor">
+                        <path d="M10 3.5a1.5 1.5 0 013 0V4a1 1 0 001 1h3a1 1 0 011 1v3a1 1 0 01-1 1h-.5a1.5 1.5 0 000 3h.5a1 1 0 011 1v3a1 1 0 01-1 1h-3a1 1 0 01-1-1v-.5a1.5 1.5 0 00-3 0v.5a1 1 0 01-1 1H6a1 1 0 01-1-1v-3a1 1 0 00-1-1h-.5a1.5 1.5 0 010-3H4a1 1 0 001-1V6a1 1 0 011-1h3a1 1 0 001-1v-.5z" />
+                      </svg>
+                            <span class='font-black text-2xl'>TB||JSCRIPS</span>
+                        
+                </a>
+                                              </div>
+              <div class="center">
+                          <form action="" role="search">
+                    <!--<label for="web">The Web</label>
+                    <input type="radio" id="web" name="search_target" value="web">
+                    <label for="spacehey">SpaceHey</label>
+                    <input type="radio" id="spacehey" name="search_target" value="spacehey" checked>-->
+                    <label for="q">Search:</label>
+                    <div class="search-wrapper">
+                      <input id="q" type="text" name="q" autocomplete="off">
+                    </div>
+                    <button type="submit" class='px-2'>Search</button>
+                  </form>
+                      </div>
+              <div class="right">
+                <a href="https://google.com" rel="help">Google</a> | <a href="https://Netflix.com">Netflix</a> | <a href="https://hulu.com">Hulu</a>      </div>
+            </div>
+            <ul class="links flex justify-between">
+                    <li class="active"><a href="https://Jscrips.com">Home</a></li>
+              <li class=""><a href="#">Browse Projects</a></li>
+              <li class=""><a href="#">Playlists</a></li>
+              <li class=""><a href="#">Contact</a></li>
+              <li class=""><a href="#">Blog</a></li>
+              <li class=""><a href="https://https://twitter.com/Codeasaurus_Rex/likes">Favorites</a></li>
+              
+                  </ul>
+          </nav>
+          <main>
+            <div class="row profile" itemscope="" itemtype="">
+             
+        
+              <div class="col w-40 left">
+                <span itemprop="name">
+                  <h1>TB || JScrips</h1>
+                </span>
+                        <div class="general-about">
+                  <div class="profile-pic">
+                    <img src="images/jscrips.jpg" alt="TB Profile Picture" loading="lazy">
+                  </div>
+                  <div class="details">
+                    <p class="online"><img src="https://static.spacehey.net/img/green_person.svg" aria-hidden="true" alt="Online icon" loading="lazy"> ONLINE!</p>          </div>
+                </div>
+                <div class="mood">
+                  <p><b>Mood:💩 Coding 💩</b> </p>
+                  <p>
+                    <b>View my:
+                      <a href="https://jscrips-blog.vercel.app/">✊🏾Blog</a>
+                                    | <a href="https://twitter.com/Codesaurus_Rex">
+                                        Twitter</a>
+                                  </b>
+                  </p>
+                </div>
+                <div class="contact">
+                  <div class="heading">
+                    <h4>Contacting TB||JScrips</h4>
+                  </div>
+                  <div class="inner">
+                    <div class="f-row">
+                      <div class="f-col">
+                                          <a href="/addfriend?id=1069540">
+                            <img src="" class="icon" aria-hidden="true" loading="lazy" alt="">                    Add to Friends
+                          </a>
+                                      </div>
+                      <div class="f-col">
+                                          <a href="/addfavorite?id=1069540">
+                            <img src="" class="icon" aria-hidden="true" loading="lazy" alt="">                    Add to Favorites
+                          </a>
+                                      </div>
+                    </div>
+                    <div class="f-row">
+                      <div class="f-col">
+                        <a href="https://im.spacehey.com?user=1069540">
+                          <img src="" class="icon" aria-hidden="true" loading="lazy" alt="">                  Send Message
+                        </a>
+                      </div>
+                      <div class="f-col">
+                        <a href="https://im.spacehey.com/new?text=https://spacehey.com/profile?id=1069540">
+                          <img src="" class="icon" aria-hidden="true" loading="lazy" alt="">                  Forward to Friend
+                        </a>
+                      </div>
+                    </div>
+                    <div class="f-row">
+                      <div class="f-col">
+                        <a href="https://im.spacehey.com?user=1069540">
+                          <img src="" class="icon" aria-hidden="true" loading="lazy" alt="">                  Instant Message
+                        </a>
+                      </div>
+                      <div class="f-col">
+                        <a href="/block?id=1069540">
+                          <img src="" class="icon" aria-hidden="true" loading="lazy" alt="">                  Block User
+                        </a>
+                      </div>
+                    </div>
+                    <div class="f-row">
+                      <div class="f-col">
+                        <a href="/soon?new">
+                          <img src="" class="icon" aria-hidden="true" loading="lazy" alt="">                  Add to Group
+                        </a>
+                      </div>
+                      <div class="f-col">
+                        <a href="/report?type=user&amp;id=1069540">
+                          <img src="" class="icon" aria-hidden="true" loading="lazy" alt="">                  Report User
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="url-info">
+                  <p><b>SpaceHey URL:</b></p>
+                  <p>
+                    https://myspace.com/profile?id=DamniMissMyspace          </p>
+                </div>
+                <div class="table-section">
+                  <div class="heading">
+                    <h4>TB||JScrips' Interests</h4>
+                  </div>
+                  <div class="inner">
+                    <table class="details-table" cellspacing="3" cellpadding="3">
+                      <tbody>
+                        <tr>
+                          <td><p>General</p></td>
+                          <td><p>Anime, Video Games</p></td>
+                        </tr>
+                        <tr>
+                          <td><p>Music</p></td>
+                          <td><p>Rap, R&B, Lo-Fi, Rock, Alternative</p></td>
+                        </tr>
+                        <tr>
+                          <td><p>Movies</p></td>
+                          <td><p>Marvel Universe</p></td>
+                        </tr>
+                        <tr>
+                          <td><p>Television</p></td>
+                          <td><p>South Park</p></td>
+                        </tr>
+                        <tr>
+                          <td><p>Books</p></td>
+                          <td><p>Harry Potter Series</p></td>
+                        </tr>
+                        <tr>
+                          <td><p>Heroes</p></td>
+                          <td><p> Spider-Man, Mr.Clean</p></td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                          </div>
+                <div class="table-section">
+                  <div class="heading">
+                    <h4>TB||JScrips's Links</h4>
+                  </div>
+                  <div class="inner">
+                    <table class="details-table" cellspacing="3" cellpadding="3">
+                      <tbody>
+                                      </tbody>
+                    </table>
+                  </div>
+                          </div>
+              </div>
+              <div class="col right">
+                        <div class="blog-preview">
+                  <h4>Terrance's Latest Blog Entries [<a href="https://jscrips-blog.vercel.app/">View Blog</a>]</h4>
+                  <a href='https://jscrips-blog.vercel.app/posts/Blog%20Post1'><p><i>0 to 100 Real Quick... - An Origin Story</i></p></a>        </div>
+                <div class="blurbs">
+                  <div class="heading">
+                    <h4>Terrance's Blurbs</h4>
+                  </div>
+                  <div class="inner">
+                    <div class="section">
+                      <h4>About me:</h4>
+                      <p itemprop="description">My name is Terrance Brown. I'm a 28 year old, brand new web-developer, born and raised in South Central, Los Angeles. I graduated from California State University, Northridge with a communications degree, and went to high school at Crenshaw High. I've been an avid gamer since the age of 7, and I've played almost every MMORPG there is on the internet (probably). Aside from gaming, I also really enjoy hanging with my friends, working out at the gym, and staying at home, doing absolutely nothing. Over the span of my life, I've held almost 30 jobs, no exaggeration. I've worked everywhere and have done everything; from bowling alleys, to kitches, to offices, to theme parks, to retail stores, to banks. I've held a LOT of different jobs, in search of stability, in search of something I enjoyed, in search of answers. 90% of the time just searching to try something new.</p>
+                                  </div>
+                    <div class="section">
+                      <h4>Who I'd like to meet:</h4>
+                      <p>Darth Vader, The person who invented Raspados, The person who invented Egg Nogg, Kanye West</p>
+                                  </div>
+                  </div>
+                </div>
+                <div class="friends">
+                  <div class="heading">
+                    <h4>TB||JScrip's Friend Space</h4>
+                    <a class="more" href="">[view all]</a>
+                  </div>
+                  <div class="inner">
+                                <p><b>TB||JScrips has <span class="count">6</span> friends.</b></p>
+                    <div class="friends-grid">
+                                    <div class="person">
+                        <a href="">
+                          <p>BreaLaSoul <span ></span></p>
+                        </a>
+                        <a href="">
+                          <img src="./images/breanna.jpg" alt="SpaceHey's profile picture" loading="lazy">
+                        </a>
+                      </div>
+                                    <div class="person">
+                        <a href="">
+                          <p>Miles Morales <span class="verified-info" title="Verified User" data-reason="Creator of SpaceHey"><img src="" class="icon verified" aria-hidden="true" loading="lazy" alt=""></span></p>
+                        </a>
+                        <a href="">
+                          <img src="./images/spiderman.jpg" alt="An's profile picture" loading="lazy">
+                        </a>
+                      </div>
+                      <div class="person">
+                        <a href="">
+                          <p>Killua Zoldyck<span ></span></p>
+                        </a>
+                        <a href="">
+                          <img src="./images/killua.jpg" alt="SpaceHey's profile picture" loading="lazy">
+                        </a>
+                      </div>
+                      <div class="person">
+                        <a href="">
+                          <p>Dr. Umar<span ></span></p>
+                        </a>
+                        <a href="">
+                          <img src="./images/drumar.jpg" alt="SpaceHey's profile picture" loading="lazy">
+                        </a>
+                      </div>
+                      <div class="person">
+                        <a href="">
+                          <p>DeadPool<span ></span></p>
+                        </a>
+                        <a href="">
+                          <img src="./images/deadpool.jpg" alt="SpaceHey's profile picture" loading="lazy">
+                        </a>
+                      </div>
+                      <div class="person">
+                        <a href="">
+                          <p>Consuela Ramirez<span ></span></p>
+                        </a>
+                        <a href="">
+                          <img src="./images/Consuela.jpg" alt="SpaceHey's profile picture" loading="lazy">
+                        </a>
+                      </div>
+                                  </div>
+                  </div>
+                </div>
+                <div class="friends" id="comments">
+                  <div class="heading">
+                    <h4>TB || JScrip's Friends Comments</h4>
+                  </div>
+                  <div class="inner">
+                                <p>
+                      <b>
+                        Displaying <span class="count">1</span> of <span class="count">1</span> comments
+                        ( <a href="">View all</a> | <a href="">Add Comment</a> )
+                      </b>
+                    </p>
+                    <table class="comments-table" cellspacing="0" cellpadding="3" bordercolor="ffffff" border="1">
+                        <tbody>
 
 
 
 
-    <footer>
-      <div class="footercontainer text-center md:flex mt-10">
-        <div class="footerparagraph mb-6 border-b-2 p-2 border-t-2 md:border-opacity-0">
-          <h3>HTML</h3>
-          <p>
-            I've recently started learning about HTML5. Everyday, I'm learning
-            more and more about the different capabilities of this language. I
-            plan on mastering the language and implimenting everything I learned
-            into my future endeavors.
-          </p>
+
+
+                                          <tr>
+                            <td>
+                              <a href="">
+                                <p>BreaLaSoul</p>
+                              </a>
+                              <a href="" class="flex justify-center">
+                                <img src="./images/breanna.jpg" alt="BreaLaSoul's profile picture" loading="lazy">
+                              </a>
+                            </td>
+                            <td>
+                              <p><b><time class="ago" data-timestamp="1635396822" style="opacity: 1;">1 month ago</time></b></p>
+                              <p>Thanks for the add! Love the code and everything you're doing! Keep it up, it looks great! #GeekSquad!!</p>
+                                                  <p class="report">
+                                <a href="#">
+                                  <img src="" class="icon" aria-hidden="true" loading="lazy" alt="">                        Report Comment
+                                </a>
+                              </p>
+                                                  <br><br>
+                              <div class="comment-replies">
+                                                      <div class="comment-reply">
+                                  <p>No prob! Love your pics! You have such a cool style! </p>
+                                  <p>
+                                    <small>
+                                      by
+                                      <a href=""><b>TB||JScrips</b></a>;
+                                      <time class="ago" data-timestamp="1635398179" style="opacity: 1;">1 month ago</time>;
+                                                                  <a href="https://spacehey.com/report?type=comment&amp;id=335953">
+                                        Report
+                                      </a>
+                                    </small>
+                                  </p>
+                                </div>
+                                                      <div class="comment-reply">
+                                  <p>😘😘😘😘😘 </p>
+                                  <p>
+                                    <small>
+                                      by
+                                      <a href="/profile?id=7361"><b>BreaLaSoul</b></a>;
+                                      <time class="ago" data-timestamp="1635487969" style="opacity: 1;">1 month ago</time>;
+                                                                  <a href="https://spacehey.com/report?type=comment&amp;id=337199">
+                                        Report
+                                      </a>
+                                    </small>
+                                </div>
+                                                    </div>
+                                                                    </td>
+                          </tr>
+
+
+
+
+
+
+                          <tr>
+                            <td>
+                              <a href="">
+                                <p>Dr. Umar</p>
+                              </a>
+                              <a href="" class="flex justify-center">
+                                <img src="./images/drumar.jpg" alt="Dr.Umar's profile picture" loading="lazy">
+                              </a>
+                            </td>
+                            <td>
+                              <p><b><time class="ago" data-timestamp="1635396822" style="opacity: 1;">1 month ago</time></b></p>
+                              <p>Brother Brown! I trust you're keeping your palette cleansed. Be well brother.</p>
+                                                  <p class="report">
+                                <a href="#">
+                                  <img src="" class="icon" aria-hidden="true" loading="lazy" alt="">                        Report Comment
+                                </a>
+                              </p>
+                                                                    </td>
+                          </tr>
+
+
+
+
+
+                          <tr>
+                            <td>
+                              <a href="/profile?id=7361">
+                                <p>Miles Morales</p>
+                              </a>
+                              <a href="" class="flex justify-center">
+                                <img src="./images/spiderman.jpg" alt="Dr.Umar's profile picture" loading="lazy">
+                              </a>
+                            </td>
+                            <td>
+                              <p><b><time class="ago" data-timestamp="1635396822" style="opacity: 1;">2 months ago</time></b></p>
+                              <p>Yo Bro. It was good running into you again! Hope you're well, lets chop it up again sometime!</p>
+                                                  <p class="report">
+                                <a href="#">
+                                  <img src="" class="icon" aria-hidden="true" loading="lazy" alt="">                        Report Comment
+                                </a>
+                              </p>
+                                                                    </td>
+                          </tr>
+
+
+
+
+
+
+
+                                         
+                                        </tbody>
+                      </table>
+                                          </div>
+                </div>
+        
+              </div>
+            </div>
+        
+          </main>
+          <footer>
+            <p>       <i>Disclaimer: This is a fan-based project and is not affiliated with MySpace® in any way.</i>
+            </p>
+            <!-- <ul class="links">
+                    <li><a href="#">About</a></li>
+              <li><a href="#">News</a></li>
+              <li><a href="#">Rules</a></li>
+              <li><a href="#">Press</a></li>
+              <li><a href="#">Brand</a></li>
+              <li><a href="#">Credits</a></li>
+              <li><a href="#">RSS</a></li>
+              <li><a href="#">Terms</a></li>
+              <li><a href="#">Privacy</a></li>
+              <li><a href="#">Imprint</a></li>
+              <li><a href="#">Contact</a></li>
+              <li><a href="#">Advertise</a></li>
+              <li><a href="#">Status</a></li>
+              <li><a href="#">SpaceHey Shop</a></li>
+            </ul> -->
+            <p class="copyright">
+              <a href="https://Jscrips.com">2021 TB||JScrips </a>
+            </p>
+          </footer>
         </div>
-        <div class="footerparagraph mb-6 border-b-2 p-2 md:border-opacity-0">
-          <h3>CSS</h3>
-          <p>
-            CSS is a real beast. Coming in not knowing anything has been a real
-            challenge for me; however, like with with anything, practice makes
-            perfect. I've learned different aspects of CSS as well as a bit of
-            flexbox and continue to learn each day!
-          </p>
-        </div>
-        <div class="footerparagraph p-2">
-          <h3>JavaScript</h3>
-          <p>
-            Last but not least, I've learned so much about Javascript. Oddly
-            enough, I can say that I do not hate Javascript after all of the
-            hours of studying. It's actually really empowering to see what I'm
-            able to do with this powerful language. I look forward to my
-            evolution.
-          </p>
-        </div>
-      </div>
-    </footer>
 
-    <script src='index.js'></script>
-  </body>
+        
+ <!-- Layout START - TB  --> 
+ 
+ 
+
+
+
+ <!-- (c) Layout created by p0libius (https://layouts.spacehey.com/layout?id=1430) -->
+
+<style>
+    body {
+    font-family: Courier New, monospace;
+    background-color: black;
+    }
+    img {
+    filter: sepia(100%) hue-rotate(45deg) saturate(5);
+    }
+    body::before {
+    content: " ";
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: linear-gradient(rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, 0.25) 50%);
+    z-index: 2;
+    background-size: 100% 2px, 3px 100%;
+    pointer-events: none;
+    }
+    .logo {
+    filter: sepia(100%) hue-rotate(45deg) saturate(10);
+    }
+    #q, button {
+    color: #00ff00;
+    background-color: black;
+    border: 1px solid #00ff00;
+    font-family: inherit;
+    }
+    p, i, b, .count {
+    color: #00ff00 !important;
+    }
+    a, .profile .friends .person p, .logout-btn {
+    color: #00ff00 !important;
+    text-decoration: underline !important;
+    }
+    .container {
+    margin: 0 auto 0;
+    }
+    .icon {
+    display: none;
+    }
+    nav, nav .links a {
+    color: #00ff00;
+    }
+    nav .top {
+    margin-top: 2px;
+    background: none;
+    background-color: black;
+    border: 2px dotted #00ff00;
+    border-bottom: none;
+    }
+    nav .links {
+    background-color: black;
+    border: 2px solid #00ff00;
+    }
+    main {
+    background: black;
+    color: #00ff00;
+    border-left: 2px dotted #00ff00;
+    border-right: 2px dotted #00ff00;
+    }
+    .heading, .url-info {
+    color: #00ff00 !important;
+    background: none;
+    background-color: black !important;
+    border: 2px solid #00ff00 !important;
+    }
+    .inner {
+    color: #00ff00 !important;
+    border: 2px dotted #00ff00;
+    border-top: none;
+    }
+    .profile-info {
+    border: 2px solid #00ff00;
+    }
+    .profile-info .inner {
+    border: none;
+    }
+    .friends .inner {
+    border-bottom: none;
+    }
+    #comments {
+    border-bottom: 2px dotted #00ff00;
+    }
+    .profile .contact, .profile .table-section, .home-actions {
+    border: none !important;
+    }
+    .profile .contact .f-row:first-of-type {
+    margin-top: 0px;
+    padding-top: 7px;
+    }
+    .profile .blurbs .section h4 {
+    color: #00ff00 !important;
+    }
+    .details-table {
+    margin: 2px;
+    }
+    .details-table, td {
+    border: 1px solid #00ff00;
+    border-collapse: collapse;
+    }
+    td {
+    color: #00ff00 !important;
+    background: none;
+    background-color: black !important;
+    } 
+    table.details-table {
+    max-width: 98%;
+    }
+    .profile h1 {
+    font-size: 2em;
+    }
+    footer {
+    background: black;
+    border: 2px dotted #00ff00;
+    }
+    footer p {
+    color #00ff00 !important;
+    }
+    .comments-table {
+    border: none;
+    border-collapse: collapse;
+    }
+    .comment-replies {
+    border: 1px solid #00ff00;
+    margin: 2px;
+    }
+    nav .info {
+    background: none;
+    }
+    </style>
+    
+</body>
 </html>
